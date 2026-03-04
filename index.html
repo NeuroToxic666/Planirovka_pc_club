@@ -92,11 +92,11 @@
         let selectedId = null;
 
         function openModal(id) {
-            alert('клик по пк: ' + id);
+            
             selectedId = id
             document.getElementById('modal-title').innerText = 'ПК №' + id;
             document.getElementById('modal-overlay').style.display = 'flex';
-            document.body.style.backgroundColor = 'red'
+            
         }
 
         function closeModal() {
